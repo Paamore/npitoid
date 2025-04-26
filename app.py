@@ -57,8 +57,8 @@ st.markdown("""
 
 st.title("🔹 Easy_id 🔹")
 
-a = st.text_input("NPI")
-b= st.text_input("IY")
+a = st.text_input("Le NPI")
+b= st.text_input("Les deux derniers chiffres de l'année d'émission")
 
 if st.button("Générer ID"):
     if not (a.isdigit() and b.isdigit()):
